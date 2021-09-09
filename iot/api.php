@@ -1,6 +1,6 @@
 <?
-$serial=$_REQUEST['serial'];
-$estado=$_REQUEST['estado'];
+$serial=$_GET['serial'];
+$estado=$_GET['estado'];
 
 date_default_timezone_set('America/Lima'); 
 $fecha= date('Y-m-d H:i:s', time()); 
